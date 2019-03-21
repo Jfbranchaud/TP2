@@ -1,0 +1,67 @@
+
+#liste-cours {
+margin-bottom:0;
+     
+}
+
+.liste-cours {
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 2% 2% 0% 15%;
+    font-size : 1.5em;
+   
+    
+  
+    .session-1 { background-color:orange; color : #fff;}
+    .session-2 { background-color: #B27400; color : #aaa;}
+    .session-3 { background-color:#45AFD3; color : #fff;}
+    .session-4 { background-color: #948b36; color : #fff;}
+    .session-5 { background-color: #97173d; color : #fff;}
+    h3,h4 { padding:5px;}
+
+    @include media(mobile){
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        font-size : 1.3em;
+
+    }
+
+    @include media(tablet) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            font-size : 1em;
+     
+    }
+
+    @include media(desktop) {
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+   
+    }
+
+    @include media(wide) {
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px;
+     
+        }
+
+    .entry-title {
+
+        border: 10px white;
+
+        h3{
+            font-size: .5em;
+        }
+        h4{
+            font-size: .4em;
+        }
+    }
+
+    
+
+
+
+
+
+}
