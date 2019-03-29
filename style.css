@@ -663,9 +663,7 @@ body.page .main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /*justify-content: center;*/
 }
 
 @media only screen and (min-width: 768px) {
@@ -706,7 +704,7 @@ body.page .main-navigation {
 }
 
 .liste-cours {
-  color: #fff;
+  /*color:#fff;*/
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -801,15 +799,23 @@ p {
 }
 
 .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #B21D0F;
 }
 
 .wp-block-image img {
   border: 3px solid #1469CC;
+  width: 500vh;
 }
 
 .wp-block-media-text__media img {
   border: 3px solid #1469CC;
+  width: 200vh;
 }
 
 .wp-block-media-text__content {
@@ -817,8 +823,8 @@ p {
   margin-left: 50px;
 }
 
-.entry-content p {
-  background-color: #065421;
+.content-entry p {
+  background-color: #1469CC;
 }
 
 .widget-area {
