@@ -1,6 +1,6 @@
 
 p {
-color: black;
+color:white;
 
  }
 .site{
@@ -11,19 +11,24 @@ background-color:#B21D0F;
 
 }
 .wp-block-image img{
-border : 3px solid #B21D0F;
+border : 3px solid #1469CC;
 }
 
 .wp-block-media-text__media img{
-border : 3px solid #B21D0F;
+border : 3px solid #1469CC;
 }
 
 .wp-block-media-text__content{
-background-color:#B21D0F;
+background-color:#1469CC;
 margin-left:50px;
 }
 
 .entry-content p{
 background-color: #065421;
+
+}
+
+.widget-area{
+color:white;
 
 }

@@ -791,7 +791,7 @@ body.page .main-navigation {
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 .site {
@@ -803,20 +803,24 @@ p {
 }
 
 .wp-block-image img {
-  border: 3px solid #B21D0F;
+  border: 3px solid #1469CC;
 }
 
 .wp-block-media-text__media img {
-  border: 3px solid #B21D0F;
+  border: 3px solid #1469CC;
 }
 
 .wp-block-media-text__content {
-  background-color: #B21D0F;
+  background-color: #1469CC;
   margin-left: 50px;
 }
 
 .entry-content p {
   background-color: #065421;
+}
+
+.widget-area {
+  color: white;
 }
 
 @-webkit-keyframes anim1 {
@@ -847,8 +851,8 @@ p {
             transform: translateX(-100vh);
   }
   100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    -webkit-transform: translateX(-5vh);
+            transform: translateX(-5vh);
   }
 }
 
@@ -858,8 +862,8 @@ p {
             transform: translateX(-100vh);
   }
   100% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    -webkit-transform: translateX(-5vh);
+            transform: translateX(-5vh);
   }
 }
 
