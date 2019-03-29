@@ -839,83 +839,27 @@ p {
 
 @-webkit-keyframes anim2 {
   0% {
-    -webkit-transform: rotateX(50deg);
-            transform: rotateX(50deg);
+    -webkit-transform: scale(0%);
+            transform: scale(0%);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
-  60% {
-    -webkit-transform: rotateX(-40deg);
-            transform: rotateX(-40deg);
-  }
-  70% {
-    -webkit-transform: rotateX(30deg);
-            transform: rotateX(30deg);
-  }
-  80% {
-    -webkit-transform: rotateX(-20deg);
-            transform: rotateX(-20deg);
-  }
-  90% {
-    -webkit-transform: rotateX(10deg);
-            transform: rotateX(10deg);
-  }
-  95% {
-    -webkit-transform: rotateX(-5deg);
-            transform: rotateX(-5deg);
-  }
-  97% {
-    -webkit-transform: rotateX(3deg);
-            transform: rotateX(3deg);
-  }
-  99% {
-    -webkit-transform: rotateX(-2deg);
-            transform: rotateX(-2deg);
-  }
   100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    -webkit-transform: scale(200%);
+            transform: scale(200%);
   }
 }
 
 @keyframes anim2 {
   0% {
-    -webkit-transform: rotateX(50deg);
-            transform: rotateX(50deg);
+    -webkit-transform: scale(0%);
+            transform: scale(0%);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
-  60% {
-    -webkit-transform: rotateX(-40deg);
-            transform: rotateX(-40deg);
-  }
-  70% {
-    -webkit-transform: rotateX(30deg);
-            transform: rotateX(30deg);
-  }
-  80% {
-    -webkit-transform: rotateX(-20deg);
-            transform: rotateX(-20deg);
-  }
-  90% {
-    -webkit-transform: rotateX(10deg);
-            transform: rotateX(10deg);
-  }
-  95% {
-    -webkit-transform: rotateX(-5deg);
-            transform: rotateX(-5deg);
-  }
-  97% {
-    -webkit-transform: rotateX(3deg);
-            transform: rotateX(3deg);
-  }
-  99% {
-    -webkit-transform: rotateX(-2deg);
-            transform: rotateX(-2deg);
-  }
   100% {
-    -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    -webkit-transform: scale(200%);
+            transform: scale(200%);
   }
 }
 
