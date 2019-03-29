@@ -782,6 +782,10 @@ body.page .main-navigation {
   font-size: 1em;
 }
 
+p {
+  color: white;
+}
+
 .site {
   background-color: #065421;
 }
