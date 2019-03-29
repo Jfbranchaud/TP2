@@ -1,17 +1,14 @@
-   
-
-
 @keyframes anim1 {
     from {
-        transform: translateY(-100vh)  rotateX(0deg);
-         animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
+        transform: translateY(-100vh);
+        
+        
     }
- 
     100% {
-        transform: translateY(0) rotateX(0deg); 
-        animation-timing-function: cubic-bezier(.89, .17, 1, .31);
-    }
+        transform: translateY(0vh); 
+        }
 }
+
 
 @keyframes anim2 {
 
@@ -21,7 +18,7 @@
    }
 
     100% {
-        transform: translateX(0);
+        transform: translateX(100px);
     }
 } 
 
@@ -30,13 +27,15 @@
 @keyframes anim3 {
     0% {
         animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
-        transform: translateX(-100%) rotateX(60deg);
+        transform: translateX(100%);
+        opacity:0; 
     }
-
     100% {
-        transform: translateX(0) rotateX(60deg);
+        transform: translateX(0);
+        opacity:1; 
     }
 }
+
 
 
 .anim1 {
@@ -54,12 +53,6 @@
     animation-fill-mode: forwards;
     
 }
-
-
-
-
-
-
 
 .anim3 {
     // animation-fill-mode: forwards;//

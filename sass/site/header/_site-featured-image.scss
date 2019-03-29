@@ -11,20 +11,21 @@
 
 
 /* enfant */
-    .site-branding .site-title
-   {
+    .site-branding .site-title{  
         font-size: 8vw;
         transform : translateY(-50vh);
-       // border : 1px solid #aaa;
+       /*border : 1px solid #aaa;*/
         width : 5em;
-       // background-color: #ddd;
+       /*background-color: #ddd;*/
         padding: 4px;
-        
+       align-self: center;
     }
+
  .site-branding .site-description
  {
        font-size: 5vw;
        transform : translateX(-100%);
+       align-self: center;
  }
 
     /* enfant */
