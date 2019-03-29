@@ -3,8 +3,12 @@
 margin-bottom:0;
      
 }
+.page-header{
+color: #fff;
 
+}
 .liste-cours {
+    color:#fff;
     display : grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -13,11 +17,11 @@ margin-bottom:0;
    
     
   
-    .session-1 { background-color:orange; color : #fff;}
-    .session-2 { background-color: #B27400; color : #aaa;}
-    .session-3 { background-color:#45AFD3; color : #fff;}
-    .session-4 { background-color: #948b36; color : #fff;}
-    .session-5 { background-color: #97173d; color : #fff;}
+    .session-1 { background-color:#296BBF; }
+    .session-2 { background-color: #1B487F;}
+    .session-3 { background-color:#368FFF;}
+    .session-4 { background-color: #0E2440;}
+    .session-5 { background-color: #3281E5;}
     h3,h4 { padding:5px;}
 
     @include media(mobile){
@@ -47,13 +51,15 @@ margin-bottom:0;
         }
 
     .entry-title {
-
+        
         border: 10px white;
 
         h3{
+            color:white;  
             font-size: .5em;
         }
         h4{
+            color:white;
             font-size: .4em;
         }
     }

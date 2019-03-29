@@ -701,7 +701,12 @@ body.page .main-navigation {
   margin-bottom: 0;
 }
 
+.page-header {
+  color: #fff;
+}
+
 .liste-cours {
+  color: #fff;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -712,28 +717,23 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: orange;
-  color: #fff;
+  background-color: #296BBF;
 }
 
 .liste-cours .session-2 {
-  background-color: #B27400;
-  color: #aaa;
+  background-color: #1B487F;
 }
 
 .liste-cours .session-3 {
-  background-color: #45AFD3;
-  color: #fff;
+  background-color: #368FFF;
 }
 
 .liste-cours .session-4 {
-  background-color: #948b36;
-  color: #fff;
+  background-color: #0E2440;
 }
 
 .liste-cours .session-5 {
-  background-color: #97173d;
-  color: #fff;
+  background-color: #3281E5;
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -779,10 +779,12 @@ body.page .main-navigation {
 }
 
 .liste-cours .entry-title h3 {
+  color: white;
   font-size: .5em;
 }
 
 .liste-cours .entry-title h4 {
+  color: white;
   font-size: .4em;
 }
 
