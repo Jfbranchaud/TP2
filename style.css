@@ -630,6 +630,10 @@ body.page .main-navigation {
       align-self: center;
 }
 
+.site-header.featured-image .entry-title {
+  font-size: 2vw;
+}
+
 .site-header.featured-image .site-branding .site-description {
   font-size: 5vw;
   -webkit-transform: translateX(-100%);
@@ -663,7 +667,9 @@ body.page .main-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*justify-content: center;*/
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -685,10 +691,10 @@ body.page .main-navigation {
     min-height: 35vh;
   }
   .site-header.featured-image .site-branding .site-title {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .site-header.featured-image .site-branding .site-description {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 }
 
@@ -810,7 +816,7 @@ p {
 
 .wp-block-image img {
   border: 3px solid #1469CC;
-  width: 500vh;
+  width: 50vh;
 }
 
 .wp-block-media-text__media img {
@@ -819,6 +825,7 @@ p {
 }
 
 .wp-block-media-text__content {
+  /*display: none;*/
   background-color: #1469CC;
   margin-left: 50px;
 }
@@ -905,6 +912,36 @@ p {
   }
 }
 
+@-webkit-keyframes anim4 {
+  0% {
+    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim4 {
+  0% {
+    -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+            animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .anim1 {
   -webkit-transform-origin: top center;
           transform-origin: top center;
@@ -930,5 +967,14 @@ p {
           animation: anim3 1s forwards;
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+}
+
+.anim4 {
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-animation: anim4 2s;
+          animation: anim4 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 /*# sourceMappingURL=style.css.map */

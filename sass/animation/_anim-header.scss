@@ -36,6 +36,19 @@
     }
 }
 
+@keyframes anim4 {
+    0% {
+        animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
+        transform: translateX(100%);
+        opacity:0; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity:1; 
+    }
+}
+
+
 
 
 .anim1 {
@@ -59,4 +72,12 @@
     transform-origin: top center;
     animation: anim3 1s forwards;
     animation-timing-function: cubic-bezier(1, .01, .91, 1.7);
+}
+
+.anim4 {
+    transform-origin: top center;
+    animation: anim4 2s ;
+
+    animation-fill-mode: forwards;
+    
 }

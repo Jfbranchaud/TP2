@@ -11,7 +11,7 @@
 
 get_header();
 ?>
-
+////////////single.php//////////
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -28,7 +28,12 @@ get_header();
             
 			if ( in_category(array ('nouvelle','evenement'))) {
 				get_template_part( 'template-parts/content/content', 'single-nouvelle' );	
-				} else {
+				}
+			else if ( in_category('cours')) {
+					get_template_part( 'template-parts/content/content', 'single-cours' );	
+					}
+				
+			else {
 				get_template_part( 'template-parts/content/content', 'single' );
 				}
 
