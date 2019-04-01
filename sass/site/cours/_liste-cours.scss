@@ -1,6 +1,7 @@
 
 #liste-cours {
 margin-bottom:0;
+
      
 }
 .page-header{
@@ -14,11 +15,11 @@ color: #fff;
     grid-gap: 10px;
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
+    border:10px solid #fff;
 
-   
     
   
-    .session-1 { background-color:#FFCF0D; }
+    .session-1 { background-color:#FFCF0D;}
     .session-2 { background-color: #E86F0C;}
     .session-3 { background-color:#FF0000;}
     .session-4 { background-color: #A70CE8;}
@@ -58,6 +59,7 @@ color: #fff;
         h3{
             color:white;  
             font-size: .5em;
+            
         }
         h4{
             color:white;

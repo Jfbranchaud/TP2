@@ -719,6 +719,7 @@ body.page .main-navigation {
   grid-gap: 10px;
   margin: 2% 2% 0% 15%;
   font-size: 1.5em;
+  border: 10px solid #fff;
 }
 
 .liste-cours .session-1 {
