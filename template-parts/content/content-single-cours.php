@@ -17,13 +17,13 @@
 		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
 	</header>
 	<?php endif; ?>
-//////single-cours.php/////
+
 	<div class="entry-content">
 		<div class="wp-block-media-text alignwide" style="grid-template-columns:30% auto">
 			<div class="wp-block-media-text__content">
 				<?php
 					the_content();
-                ?>
+				?>
                 
                 <?php if( get_field('heures') ): ?>
     <h3>Nombres d'heures :</h3> <p><?php the_field('heures');?> heures</p>

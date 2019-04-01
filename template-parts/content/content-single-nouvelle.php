@@ -17,7 +17,7 @@
 		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
 	</header>
 	<?php endif; ?>
-//////single-nouvelle.php/////
+
 	<div class="entry-content">
 		<div class="wp-block-media-text alignwide" style="grid-template-columns:30% auto">
 			<figure class="wp-block-media-text__media">
