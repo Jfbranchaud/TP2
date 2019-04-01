@@ -722,23 +722,23 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #296BBF;
+  background-color: #FFCF0D;
 }
 
 .liste-cours .session-2 {
-  background-color: #1B487F;
+  background-color: #E86F0C;
 }
 
 .liste-cours .session-3 {
-  background-color: #368FFF;
+  background-color: #FF0000;
 }
 
 .liste-cours .session-4 {
-  background-color: #0E2440;
+  background-color: #A70CE8;
 }
 
 .liste-cours .session-5 {
-  background-color: #3281E5;
+  background-color: #1837FF;
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -985,20 +985,11 @@ p {
           animation-delay: 0.25s;
 }
 
-.wp-block-media-text__content:nth-child(2) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
 .wp-block-media-text__content:nth-child(1) {
-  background-color: aqua;
+  background-color: gray;
 }
 
 .wp-block-media-text__content:nth-child(2) {
   background-color: chocolate;
-}
-
-.wp-block-media-text__content:nth-child(3) {
-  background-color: deeppink;
 }
 /*# sourceMappingURL=style.css.map */

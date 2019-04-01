@@ -14,14 +14,15 @@ color: #fff;
     grid-gap: 10px;
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
+
    
     
   
-    .session-1 { background-color:#296BBF; }
-    .session-2 { background-color: #1B487F;}
-    .session-3 { background-color:#368FFF;}
-    .session-4 { background-color: #0E2440;}
-    .session-5 { background-color: #3281E5;}
+    .session-1 { background-color:#FFCF0D; }
+    .session-2 { background-color: #E86F0C;}
+    .session-3 { background-color:#FF0000;}
+    .session-4 { background-color: #A70CE8;}
+    .session-5 { background-color: #1837FF;}
     h3,h4 { padding:5px;}
 
     @include media(mobile){

@@ -83,16 +83,14 @@
 }
 
 
-@for $i from 1 to 3 {
+@for $i from 1 to 2 {
     .wp-block-media-text__content:nth-child(#{$i}) { animation-delay: $i * 0.25s; }
   }
 
   .wp-block-media-text__content:nth-child(1) {
-    background-color: aqua;
+    background-color:gray;
   }
   .wp-block-media-text__content:nth-child(2) {
     background-color: chocolate;
   }
-  .wp-block-media-text__content:nth-child(3) {
-    background-color: deeppink;
-  }
+  
