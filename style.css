@@ -803,7 +803,7 @@ p {
 
 .site {
   font-family: 'Righteous', cursive;
-  background-color: #B21D0F;
+  background-color: #E86F0C;
 }
 
 .site-content {
@@ -813,7 +813,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #B21D0F;
+  background-color: #FFCF0D;
 }
 
 .wp-block-image img {
@@ -978,5 +978,27 @@ p {
           animation: anim4 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+
+.wp-block-media-text__content:nth-child(1) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.wp-block-media-text__content:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.wp-block-media-text__content:nth-child(1) {
+  background-color: aqua;
+}
+
+.wp-block-media-text__content:nth-child(2) {
+  background-color: chocolate;
+}
+
+.wp-block-media-text__content:nth-child(3) {
+  background-color: deeppink;
 }
 /*# sourceMappingURL=style.css.map */
